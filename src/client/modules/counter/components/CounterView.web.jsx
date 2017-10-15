@@ -12,11 +12,11 @@ const Section = styled.section`
 const CounterView = ({ loading, counter, addCounter, reduxCount, onReduxIncrement }) => {
   const renderMetaData = () => (
     <Helmet
-      title="Apollo Starter Kit - Counter"
+      title="DWB Toolbox - Counter"
       meta={[
         {
           name: 'description',
-          content: 'Apollo Fullstack Starter Kit - Counter example page'
+          content: 'DWB Toolbox - Counter example page'
         }
       ]}
     />

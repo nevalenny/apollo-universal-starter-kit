@@ -25,7 +25,7 @@ const PostEditView = ({ loading, post, match, location, subscribeToMore, addPost
 
   const renderMetaData = () => (
     <Helmet
-      title="Apollo Starter Kit - Edit post"
+      title="DWB Toolbox - Edit post"
       meta={[
         {
           name: 'description',

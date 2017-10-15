@@ -21,7 +21,7 @@ const PageLayout = ({ children, navBar }) => {
       {navBar !== false && <NavBar />}
       <Container id="content">{children}</Container>
       <Footer>
-        <div className="text-center">&copy; 2017. Example Apollo App.</div>
+        <div className="text-center">&copy; 2017. DWB Toolbox.</div>
       </Footer>
     </section>
   );

@@ -9,7 +9,7 @@ const NavBar = () => (
     <Container>
       <Nav>
         <NavLink to="/" className="navbar-brand">
-          Apollo Starter Kit
+          DWB Toolbox
         </NavLink>
         {modules.navItems}
       </Nav>
