@@ -4,7 +4,7 @@ import { createApolloFetch } from 'apollo-fetch';
 import BatchHttpLink from 'apollo-link-batch-http';
 import { ApolloLink } from 'apollo-link';
 import WebSocketLink from 'apollo-link-ws';
-import InMemoryCache from 'apollo-cache-inmemory';
+import { InMemoryCache } from 'apollo-cache-inmemory';
 import { LoggingLink } from 'apollo-logger';
 import { ApolloProvider } from 'react-apollo';
 import { Provider } from 'react-redux';
