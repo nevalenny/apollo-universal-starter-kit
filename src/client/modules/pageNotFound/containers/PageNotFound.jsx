@@ -8,11 +8,11 @@ const PageNotFound = () => (
   <PageLayout>
     <section className="text-center mt-4 mb-4">
       <Helmet
-        title="Apollo Starter Kit - Page not found"
+        title="DWB Toolbox - Page not found"
         meta={[
           {
             name: 'description',
-            content: 'Apollo Starter Kit - Page not found'
+            content: 'DWB Toolbox - Page not found'
           }
         ]}
       />

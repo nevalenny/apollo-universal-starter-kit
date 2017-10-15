@@ -38,11 +38,11 @@ function renderLoadMore(posts, loadMoreRows) {
 const PostList = ({ loading, posts, deletePost, loadMoreRows }) => {
   const renderMetaData = () => (
     <Helmet
-      title="Apollo Starter Kit - Posts list"
+      title="DWB Toolbox - Posts list"
       meta={[
         {
           name: 'description',
-          content: 'Apollo Fullstack Starter Kit - List of all posts example page'
+          content: 'DWB Toolbox - List of all posts example page'
         }
       ]}
     />
